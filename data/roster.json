@@ -1,0 +1,490 @@
+{
+  "meta": {
+    "name": "Security, Guardrails & AI Safety Almanac Roster",
+    "version": "2026-06",
+    "generated_at": "2026-06-16T22:46:00Z",
+    "total_tools": 68,
+    "parent_almanac": "ArdurAI/ai-infrastructure-almanac",
+    "research_method": "8-facet wide exploration, 112+ independent searches, 8 parallel agents"
+  },
+  "category": "security-guardrails",
+  "category_name": "Security, Guardrails & AI Safety",
+  "tools": [
+    {
+      "name": "Guardrails AI",
+      "type": "Guardrail Framework",
+      "license": "Apache-2.0",
+      "tier": "A",
+      "notes": "6.8K stars; 70+ Hub validators; Python-centric; RAIL specs"
+    },
+    {
+      "name": "NVIDIA NeMo Guardrails",
+      "type": "Guardrail Framework",
+      "license": "Apache-2.0",
+      "tier": "A",
+      "notes": "5.6K stars; dialog/input/output/retrieval/execution rails; Colang DSL; sub-100ms GPU"
+    },
+    {
+      "name": "Lakera Guard (Check Point)",
+      "type": "Runtime Firewall",
+      "license": "Proprietary",
+      "tier": "A",
+      "notes": "Gandalf dataset; sub-50ms; acquired by Check Point"
+    },
+    {
+      "name": "Future AGI Protect",
+      "type": "Gateway + Guardrails",
+      "license": "Apache-2.0 (gateway)",
+      "tier": "A",
+      "notes": "18+ scanners; agent tool-call rails; 65ms text / 107ms image"
+    },
+    {
+      "name": "Prompt Security (SentinelOne)",
+      "type": "Runtime Defense",
+      "license": "Proprietary",
+      "tier": "A",
+      "notes": "Inline prompt/response inspection; acquired by SentinelOne 2025"
+    },
+    {
+      "name": "Arthur AI Shield",
+      "type": "LLM Firewall",
+      "license": "Proprietary",
+      "tier": "A",
+      "notes": "Prompt injection, hallucination scoring; SOC 2 compliant; REST API"
+    },
+    {
+      "name": "AWS Bedrock Guardrails",
+      "type": "Managed Guardrails",
+      "license": "Proprietary",
+      "tier": "A",
+      "notes": "AWS-native; content filtering; topic denial; PII; per text-unit pricing"
+    },
+    {
+      "name": "Azure AI Content Safety",
+      "type": "Content Moderation",
+      "license": "Proprietary",
+      "tier": "A",
+      "notes": "Enterprise; toxicity, hate, self-harm, violence; multilingual; severity levels"
+    },
+    {
+      "name": "Google Model Armor",
+      "type": "Input/Output Filtering",
+      "license": "Proprietary",
+      "tier": "A",
+      "notes": "GCP-native; prompt injection, data leakage; part of Vertex AI"
+    },
+    {
+      "name": "OpenAI Moderation API",
+      "type": "Content Moderation",
+      "license": "Free (hosted)",
+      "tier": "A",
+      "notes": "Mass adoption; text + image toxicity; 13+ harm categories; free endpoint"
+    },
+    {
+      "name": "Llama Guard 3 (Meta)",
+      "type": "Safety Classifier",
+      "license": "Open weights",
+      "tier": "A",
+      "notes": "14-category content safety; 3.8B parameters; prompt-based taxonomy"
+    },
+    {
+      "name": "Patronus AI",
+      "type": "Evaluator + Guardrails",
+      "license": "Proprietary + OSS (Lynx)",
+      "tier": "A",
+      "notes": "Regulated domains; hallucination, PII, copyright, finance; Lynx open-source"
+    },
+    {
+      "name": "Galileo",
+      "type": "Eval + Runtime Protection",
+      "license": "Proprietary + OSS (Agent Control)",
+      "tier": "A",
+      "notes": "Luna-2 SLM evaluators; 0.95 F1; 98% lower cost than LLM judges; runtime guardrails"
+    },
+    {
+      "name": "Fiddler AI",
+      "type": "Observability + Guardrails",
+      "license": "Proprietary",
+      "tier": "A",
+      "notes": "$100M raised; hallucination, safety, jailbreak, ML drift; <100ms Trust Models"
+    },
+    {
+      "name": "Confident AI (DeepTeam)",
+      "type": "Red Teaming + Eval",
+      "license": "Apache-2.0 (OSS)",
+      "tier": "A",
+      "notes": "50+ vulnerabilities; OWASP/NIST mapping; pytest integration; CI-native"
+    },
+    {
+      "name": "Protect AI (Palo Alto / Prisma AIRS)",
+      "type": "Full Lifecycle Security",
+      "license": "Proprietary",
+      "tier": "A",
+      "notes": "$108M raised; model scanning, red teaming, runtime firewall; acquired by Palo Alto"
+    },
+    {
+      "name": "HiddenLayer",
+      "type": "AI Security Posture",
+      "license": "Proprietary",
+      "tier": "A",
+      "notes": "$56M raised; model scanning, runtime threat detection, AIDR; MITRE ATLAS aligned"
+    },
+    {
+      "name": "WitnessAI",
+      "type": "Network-level Governance",
+      "license": "Proprietary",
+      "tier": "A",
+      "notes": "$58M raised (Series B); behavioral intent analysis, policy routing; network connector"
+    },
+    {
+      "name": "Credo AI",
+      "type": "AI Governance Platform",
+      "license": "Proprietary",
+      "tier": "A",
+      "notes": "$41M raised; AI inventory, risk assessments, policy packs; EU AI Act, NIST, ISO 42001"
+    },
+    {
+      "name": "APort / OpenClaw",
+      "type": "Pre-tool-call Authorization",
+      "license": "Open Source",
+      "tier": "B",
+      "notes": "OAP passports, policy enforcement; supports LangChain, CrewAI, Claude Code"
+    },
+    {
+      "name": "StackOne Defender",
+      "type": "Prompt Injection Defense",
+      "license": "Open Source (npm)",
+      "tier": "B",
+      "notes": "22MB ONNX model; tool result defense; Tier 1 patterns + Tier 2 ML classifier"
+    },
+    {
+      "name": "ClawGuard",
+      "type": "Runtime Security",
+      "license": "Open Source (research)",
+      "tier": "B",
+      "notes": "SMU research; user-confirmed rule sets at tool boundaries; blocks web/MCP/skill injection"
+    },
+    {
+      "name": "Nova-tracer",
+      "type": "Claude Code Protection",
+      "license": "Open Source",
+      "tier": "B",
+      "notes": "Active (PreToolUse) + Passive (PostToolUse); keyword/semantics/LLM three-tier detection"
+    },
+    {
+      "name": "Bifrost",
+      "type": "AI Gateway",
+      "license": "Apache-2.0",
+      "tier": "B",
+      "notes": "11μs overhead; MCP tool filtering; virtual keys; RBAC; SSO; vault integration"
+    },
+    {
+      "name": "Rebuff",
+      "type": "Prompt Injection Detection",
+      "license": "Open Source",
+      "tier": "B",
+      "notes": "Input filtering, semantic analysis; Protect AI project; self-hosted"
+    },
+    {
+      "name": "LLM Guard (Protect AI)",
+      "type": "Input/Output Scanners",
+      "license": "Open Source",
+      "tier": "B",
+      "notes": "Prompt injection, PII, toxic, secrets; multiple scanners; pipeline orchestration"
+    },
+    {
+      "name": "Noma Security",
+      "type": "Enterprise AI Posture",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "AI inventory, governance, red teaming, runtime; broad platform for AI risk management"
+    },
+    {
+      "name": "Harmonic Security",
+      "type": "Workforce AI Governance",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "$24M raised; browser-based AI DLP; intent classification; ~1,000 AI tools catalog"
+    },
+    {
+      "name": "Lasso Security",
+      "type": "Multi-point Enforcement",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "$6M raised; browser ext + API gateway + SDK + MCP gateway; strong app-sec and agent features"
+    },
+    {
+      "name": "Quilr",
+      "type": "AI DLP + Security",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "Early-stage; shadow AI discovery, prompt injection defense; OWASP/NIST mapped"
+    },
+    {
+      "name": "Aurascape",
+      "type": "AI Interaction Layer",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "Native decode, MCP tool-call governance, lineage; additive overlay; 48-hour SLA for new apps"
+    },
+    {
+      "name": "Robust Intelligence (Cisco)",
+      "type": "AI Security",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "Acquired by Cisco; model validation, runtime protection"
+    },
+    {
+      "name": "Mindgard",
+      "type": "AI Security + Red Teaming",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "$12M raised; AI reconnaissance, adversarial testing, runtime; EU AI Act mapped"
+    },
+    {
+      "name": "Repello",
+      "type": "Agentic AI Security",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "Threat detection, agent workflows; focus on agentic AI attack chains"
+    },
+    {
+      "name": "Pillar Security",
+      "type": "AI Security",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "AI app security; independent as of mid-2026"
+    },
+    {
+      "name": "Cyera",
+      "type": "Data Security for AI",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "DSPM for AI, data classification; AI-sensitive data exposure"
+    },
+    {
+      "name": "Cato AI Security (ex-Aim)",
+      "type": "SASE-integrated AI Sec",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "Shadow AI governance, AI firewall; modular adoption; BYOD limitations"
+    },
+    {
+      "name": "CrowdStrike Falcon",
+      "type": "Endpoint + AI Runtime",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "AI workload detection, behavioral analytics; Charlotte AI analyst assistant"
+    },
+    {
+      "name": "Darktrace",
+      "type": "Self-Learning AI Sec",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "Network/cloud/email anomaly detection; limited prompt-level inspection"
+    },
+    {
+      "name": "Zscaler",
+      "type": "Zero Trust AI Security",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "CASB shadow-IT, AI Guard, MCP Gateway; SSE-integrated; announced MCP 2026"
+    },
+    {
+      "name": "Netskope",
+      "type": "SSE AI Guardrails",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "AI traffic inspection, SaaS coverage; existing SSE customers"
+    },
+    {
+      "name": "Palo Alto Networks",
+      "type": "AI Access + AIRS",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "Prisma AIRS, AI Access Security, Browser; platform consolidation play"
+    },
+    {
+      "name": "Holistic AI",
+      "type": "Compliance Fast-lane",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "Regulated; EU AI Act, NYC LL 144, ISO 42001 checklists; model cards auto-gen"
+    },
+    {
+      "name": "CalypsoAI",
+      "type": "Trust Layer for LLMs",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "Red-Team, Defend, Observe modules; SIEM/SOAR connectors; model-agnostic"
+    },
+    {
+      "name": "AccuKnox",
+      "type": "Zero Trust AI-SPM",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "Runtime Zero Trust, AI workload security; real-time defense; DevSecOps integration"
+    },
+    {
+      "name": "PyRIT (Microsoft)",
+      "type": "Red Teaming Framework",
+      "license": "Open Source",
+      "tier": "B",
+      "notes": "Multi-turn orchestration, custom campaigns; model/platform agnostic; MS Red Team"
+    },
+    {
+      "name": "Garak (NVIDIA)",
+      "type": "Vulnerability Scanner",
+      "license": "Open Source",
+      "tier": "B",
+      "notes": "100+ probes for jailbreak, leakage, toxicity; broad model provider support"
+    },
+    {
+      "name": "Inspect (UK AISI)",
+      "type": "Evaluation Framework",
+      "license": "Open Source",
+      "tier": "B",
+      "notes": "Dangerous-capability and alignment evaluations; used by UK AISI and partners"
+    },
+    {
+      "name": "Prediction Guard",
+      "type": "Governed API",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "OpenAI-compatible, self-hosted control plane; LangChain integration; log ownership"
+    },
+    {
+      "name": "Fleece AI",
+      "type": "Agent Governance",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "Audit logs, RBAC, rate limits, depth bounds; EU region support; Mistral hosting"
+    },
+    {
+      "name": "ElixirData Context OS",
+      "type": "Runtime Governance OS",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "Regulated enterprises; Policy Gates, Decision Traces, Authority Model; Level 3+ maturity"
+    },
+    {
+      "name": "Salesforce Einstein Trust Layer",
+      "type": "CRM AI Trust",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "Zero data retention, masking, audit trails; GDPR, HIPAA, PCI DSS aligned"
+    },
+    {
+      "name": "Legalithm",
+      "type": "EU AI Act Compliance",
+      "license": "Free (SME window)",
+      "tier": "B",
+      "notes": "EU Startups/SMEs; applicability checker, risk classification, Annex IV; free through ~Apr 2028"
+    },
+    {
+      "name": "RegulAI",
+      "type": "Regulatory Mapping",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "Enterprise; real-time reg updates; 7-stage AI lifecycle; 3,200+ global regulations"
+    },
+    {
+      "name": "Alhena AI",
+      "type": "Ecommerce AI Compliance",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "Privacy Consent Gate, GDPR redaction, hallucination; SOC 2 Type 2; EU data residency"
+    },
+    {
+      "name": "DeepKeep",
+      "type": "Enterprise AI Security",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "$10M raised; AI model security, runtime protection"
+    },
+    {
+      "name": "Numalis",
+      "type": "Formal AI Validation",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "$6M raised; mathematical validation, formal verification"
+    },
+    {
+      "name": "TrojAI",
+      "type": "AI Attack Protection",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "$9M raised; adversarial attack detection, model hardening"
+    },
+    {
+      "name": "Zania",
+      "type": "AI Compliance (GRC)",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "$18M raised; agentic AI for governance, risk, compliance"
+    },
+    {
+      "name": "Complyance",
+      "type": "AI-native GRC",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "$20M raised; governance, risk, compliance automation"
+    },
+    {
+      "name": "Darwin AI",
+      "type": "Public Sector AI Governance",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "$15M raised; government AI adoption, transparency, compliance"
+    },
+    {
+      "name": "Portal26",
+      "type": "GenAI Adoption Governance",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "$15M raised; shadow AI visibility, responsible adoption"
+    },
+    {
+      "name": "AI Score",
+      "type": "AI Governance (Europe)",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "$1M raised; enterprise visibility, compliance monitoring, risk scoring"
+    },
+    {
+      "name": "Alinia",
+      "type": "AI Compliance (Europe)",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "$7.5M raised; guardrails API, auditing, policy enforcement"
+    },
+    {
+      "name": "Ciphero",
+      "type": "AI Verification Layer",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "$2.5M raised; AI interaction capture, verification, governance"
+    },
+    {
+      "name": "Iridius",
+      "type": "Compliance-by-Design",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "$8.6M raised; regulated enterprise workflows, validation"
+    },
+    {
+      "name": "Capsule Security",
+      "type": "Runtime Trust Layer",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "$7M raised; agent monitoring, control, manipulation prevention"
+    },
+    {
+      "name": "Aigentsphere",
+      "type": "Agent Governance Infra",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "$4M raised; monitoring, policy enforcement, compliance reporting"
+    }
+  ]
+}
